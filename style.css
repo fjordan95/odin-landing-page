@@ -1,0 +1,173 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h2 {
+    justify-self: center;
+    align-self: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+h3 {
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li {
+    margin: 5px;
+    font-size: 18px;
+}
+
+blockquote {
+    width: 55%;
+    margin: 40px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937
+}
+
+.intro-img {
+    width: 250px;
+    margin: 30px;
+    /*border-width: 5px;
+    border-color:white;*/
+}
+
+.hook-img {
+    width: 200px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+    font-size: 24px;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    height: 75px;
+    width: 75%;
+    padding: 3px 150px;
+    position: fixed;
+    top: 0;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    margin-top: 75px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 30px;
+    color: #F9FAF8;
+}
+
+.small {
+    width: 90px;
+    height: 25px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hooks {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    gap: 30px;
+}
+
+.hook {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+}
+
+.close {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.final {
+    display: flex;
+    padding: 150px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 150px;
+    padding: 20px 80px;
+    border-radius: 10px;
+}
+
+.final-text {
+    flex-grow: 3;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+}
+
+.final-button {
+    flex-grow: 1;
+    border: 3px solid white;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.large {
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    border: white;
+}
+
+.final-small {
+    color: #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 100%; 
+}
